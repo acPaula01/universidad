@@ -1,0 +1,5 @@
+Objeto = cosas que se abstraen del mundo real
+clase = plantilla donde se manejaran los datos
+herencia->Cada objeto puede acceder a los metodos de las clases hijas.
+Clase -> Abstracion que se hace de la experiencia de la realidad, y su funcion
+es describir propiedades genericas.
