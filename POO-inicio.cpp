@@ -3,23 +3,23 @@
 using namespace std; //encabezado
 
 class Persona{
-	//Atributos-> abstracción de la experiencia
+	//Atributos-> abstracciÃ³n de la experiencia
 	private:
 		int edad;
 		string nombre;
-	//Métodos-> son las acciones que realiza la clase
+	//MÃ©todos-> son las acciones que realiza la clase
 	public:
 		Persona(int, string);//constructor de la clase
 		void leer();
 		void correr();
 };
 //Constructor sirve para inicializar los atributos de la clase
-Persona::Persona(int _edad, string _nombre){ 
+Persona::Persona(int _edad, string _nombre){ // "::" -> lo relaciona con la clase en este caso persona, sirve para declarar un metodo a la clase.
 	edad = _edad;
 	nombre = _nombre;
 }
 
-//Métodos
+//MÃ©todos
 void Persona::leer(){
 	cout << "\n Soy " << nombre << " y esto leyendo un libro \n";
 }
