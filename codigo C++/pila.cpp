@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-#define MaxTamaPila 100 //define el tamaño de la pila 
+#define MaxTamaPila 10 //define el tamaño de la pila 
 
 class Pila{
 	private:
@@ -18,9 +18,9 @@ class Pila{
 		void insertarP(int elemento) ;
 		int quitarP();
 		int estavaciaP();
-		//void imprimirP();
+		void imprimirP(); // pensar
 		
-};
+}; 
 Pila::Pila(){ //Constructor
 	cima = -1;
 }
