@@ -1,0 +1,46 @@
+Github funciona como un almacenado de codigo.
+aqui podemos tener todas las versiones de nuestro codigo.
+En el archivo readme podemos guardar informacion tal como informacion basica del proyecto
+ya sea como instalar algunas dependencias propias que utilizara el proyecto o tambien como se
+puede instalar el mismo proyecto en local.
+
+
+El readme se puede utilizar tambien la forma de html el h1 y guiones.
+el readme sera como una documentacion del proyecto
+
+Podemos visualizar todos los commits, uno en cada línea con el comando: 
+git log –oneline
+
+Si, en lugar de menos informaciones, queremos ver más, como las alteraciones del commit, podemos usar:
+git log -p
+
+
+También podemos buscar las informaciones de la persona autora del commit con el comando:
+git log --author="user_name"
+
+
+Y buscar informaciones por fecha:
+git log --since=1.month.ago --until=1.day.ago
+
+
+Tu también puedes formatear la visualización de las informaciones del commit con el comando:
+git log --pretty="format:%h %s"
+
+
+git pull baja todos los archivos a local
+
+para verificar la actualizacion del proyecto en el repo remoto utilizamos git pull
+
+para verificar el estado del proyecto utilizamos el siguiente comando git status 
+
+diff son las actualizaciones del codigo que ud esta haciendo, esto con el siguiente comando git diff archivo el cual deseamos ver todas sus actualizaciones
+
+para restaurar alguna version de nuestro codigo utilizamos el comando git log --oneline
+y luego de obtener los haches del code copiamos el hash y escribimos lo siguiente git restore --source el codigo o hash del archivo y el nombre
+
+con git branch vemos todas las ramas
+con git checkout -b nombre de la rama
+
+Para cambiar de rama utilizamos el comando git switch nombre de la rama a cambiar
+
+Para hacer un combinacion de ramas utilizamos el comando merge, pero antes de eso tenemos que hacer unos movimientos. El primero es usa el git log --oneline, depues cambiar la rama con git switch main o a otra rama que quieras y luego combinar con merge        
