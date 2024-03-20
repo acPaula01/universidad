@@ -3,3 +3,8 @@ Para el caso tambien se utilizara un apuntador, donde servira para el acceso a l
 me traera la direccion de memoria del objeto.
 Se utilizaran las listas enlazadaas, las doblemenete enalzadas y las circulares.
 El tema de dinamico se debe a la creacion en memoria de ese lugar.
+Se quita el elemento para la liberacion de espacio en memoria.
+Este nodo necesitara un apuntador para inidcar el espacio en memoria, y en ese nodo guardara el numero, 
+y asi sucesivamente, pero para enlazar cada nodo tambien necesitare un apuntador.
+Para el caso de Anterior tanto para el metodo de añadir como el de unir los nodos es necesario utilizar 
+apuntadores.
