@@ -1,0 +1,5 @@
+Para la creacion de estas listas dinamicas se utiliza o "listas o nodos", esto en el caso de c++.
+Para el caso tambien se utilizara un apuntador, donde servira para el acceso a la memoria, este apuntador 
+me traera la direccion de memoria del objeto.
+Se utilizaran las listas enlazadaas, las doblemenete enalzadas y las circulares.
+El tema de dinamico se debe a la creacion en memoria de ese lugar.
