@@ -12,3 +12,6 @@ apuntadores.
 clase 3/040/2024
 Mejorar el programa de pilas y colas para que el arreglo sea dinamico **important
 & : Me obtiene la direccion de la variable
+OPERADOR DE INDIRECCION : -> 
+
+Creacion del puntero;
