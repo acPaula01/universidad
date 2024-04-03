@@ -19,7 +19,6 @@ int main(){
 	cout<<endl;
 	cout<<endl;
 	cout<<endl;
-	#include<iostream>
 	///////////PUNTEROS NULL///////////////////////////////////////////
 	float z = 10;
 	void *t =&z;
@@ -62,7 +61,9 @@ Direccion propia &t = 0x6ffe00
 n = 0
 &n = 0x6ffdfc
 Numero: 0
- &numero: 0x6ffdf0
+&numero: 0x6ffdf0
+
+ 
 n1: 0
 &n1: 0x6ffde8
 
