@@ -14,4 +14,4 @@ Mejorar el programa de pilas y colas para que el arreglo sea dinamico **importan
 & : Me obtiene la direccion de la variable
 OPERADOR DE INDIRECCION : -> 
 
-Creacion del puntero;
+
