@@ -8,3 +8,7 @@ Este nodo necesitara un apuntador para inidcar el espacio en memoria, y en ese n
 y asi sucesivamente, pero para enlazar cada nodo tambien necesitare un apuntador.
 Para el caso de Anterior tanto para el metodo de añadir como el de unir los nodos es necesario utilizar 
 apuntadores.
+
+clase 3/040/2024
+Mejorar el programa de pilas y colas para que el arreglo sea dinamico **important
+& : Me obtiene la direccion de la variable
