@@ -14,3 +14,15 @@ int main(){
 	cout<<"Direccion de memoria: "<<&dir_numero<<endl;
 	
 }
+/*
+-> Resultado de la ejecucion del programa
+Numero: 10
+Direccion de memoria: 0x6ffe0c
+puntador
+Numero: 10
+Direccion de memoria: 0x6ffe0c
+Direccion de memoria: 0x6ffe00
+
+
+
+*/
