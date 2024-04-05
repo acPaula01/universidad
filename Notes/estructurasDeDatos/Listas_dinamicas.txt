@@ -23,7 +23,6 @@ Caracteristicas:
 - Para declarar un puntero nulo utiliza la macro null
 - Un puntero void direcc
 
-
 Crear un progrma que su tamaño sea dinamico
 
 
@@ -31,5 +30,7 @@ Crear un progrma que su tamaño sea dinamico
 LISTAS CON ARREGLOS
 Las listas siempre podran guardar en si en 3 posiciones al inicio, final e intermedio.(esto para el caso insertar, la cual recibira dos parametros, pos y element)
 El metodo eliminar tendra como parametro la pos, y este debe asegurarse de que este lleno o vacio
+los metodos son genericos en las listas, en las listas falta el tamaño
+
 
 
