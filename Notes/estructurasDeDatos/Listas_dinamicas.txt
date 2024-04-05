@@ -25,3 +25,11 @@ Caracteristicas:
 
 
 Crear un progrma que su tamaño sea dinamico
+
+
+5/04/2024
+LISTAS CON ARREGLOS
+Las listas siempre podran guardar en si en 3 posiciones al inicio, final e intermedio.(esto para el caso insertar, la cual recibira dos parametros, pos y element)
+El metodo eliminar tendra como parametro la pos, y este debe asegurarse de que este lleno o vacio
+
+
